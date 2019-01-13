@@ -11,7 +11,6 @@ class Guiseppes
   # get all prices as floats
   def get_all_prices_as_floats
     price_array = []
-
     @menu.xpath('//price').each do |price|
       price_array << price.text.gsub('£','').to_f
   end
@@ -21,4 +20,5 @@ class Guiseppes
   def get_all_food_items
     @menu.search('food')
   end
+
 end
