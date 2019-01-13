@@ -5,4 +5,4 @@ Start by installing the gems:
 - rspec
 - nokogiri
 
-This is a fully functioning version of testing an XML file. T
+This is a fully functioning version of testing an XML file. 
