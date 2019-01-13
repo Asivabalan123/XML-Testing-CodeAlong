@@ -7,7 +7,6 @@ describe 'Guiseppes' do
     # loop through the prices and do assertion to check its not more than 10
     @menu.get_all_prices_as_floats.each do |price|
       expect(price).to be <= 10
-
     end
   end
 
@@ -27,5 +26,5 @@ describe 'Guiseppes' do
         expect(food.element_children[2].text).to include 'Two'
       end
     end
-  end 
+  end
 end
